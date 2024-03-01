@@ -19,6 +19,9 @@ body .header ul {
 body .header ul li {
   padding: 32px 24px;
 }
+body .header ul li a {
+  text-decoration: none;
+}
 body .header ul li:last-child {
   background-color: #5221e6;
 }/*# sourceMappingURL=style.css.map */
