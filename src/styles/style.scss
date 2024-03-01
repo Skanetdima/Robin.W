@@ -1,0 +1,37 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+$Base: #000000;
+$Level1: #181823;
+$LightGrey: #deecf9;
+$DarkGrey: #c7e0f4;
+$Text: #ffffff;
+$Primary: #5221e6;
+$GreenAccent: #3cc74e;
+$PinkAccent: #e95d90;
+$PeachAccent: #fff3e4;
+$VioletAccent: #fbe4ff;
+//Body
+body {
+  font-family: "Sen";
+  background-color: $Base;
+  color: $Text;
+  // header
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      align-items: center;
+      li {
+        padding: 32px 24px;
+      }
+      li:last-child {
+        background-color: $Primary;
+      }
+    }
+  }
+}

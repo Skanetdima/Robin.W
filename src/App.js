@@ -1,10 +1,5 @@
+import "./styles/style.css";
+import { Header } from "./header";
 export default function App() {
-  return (
-    <header className="header">
-      <div className="headerLogo"></div>
-      <ul>
-        <li></li>
-      </ul>
-    </header>
-  );
+  return <Header className="header" />;
 }
