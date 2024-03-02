@@ -20,6 +20,27 @@
   letter-spacing: normal;
 }
 
+.heading2 {
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.overline {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #deecf9;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
 body {
   font-family: "Sen";
   background-color: #000000;

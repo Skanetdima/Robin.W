@@ -31,7 +31,25 @@ $VioletAccent: #fbe4ff;
   line-height: 1.5;
   letter-spacing: normal;
 }
-
+.heading2 {
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.overline {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: $LightGrey;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
 //Body
 body {
   font-family: "Sen";
@@ -72,6 +90,8 @@ body {
       background: url("../images/Rectangle_37.png") no-repeat $Level1;
       background-size: contain;
       background-position: left;
+      .secondContainer {
+      }
     }
   }
 }
