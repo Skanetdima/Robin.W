@@ -1,5 +1,5 @@
 import headerLogo from "./images/Vector_2_.svg";
-import { dataNav } from "./dataNav.js";
+import { dataNav } from "./data/dataNav.js";
 export const Header = ({ className }) => {
   const listItems = dataNav.map((person) => (
     <li key={person.id}>

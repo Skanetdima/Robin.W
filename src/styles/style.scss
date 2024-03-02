@@ -14,6 +14,7 @@ $VioletAccent: #fbe4ff;
 body {
   font-family: "Sen";
   background-color: $Base;
+  color: $Text;
   // header
   .header {
     display: flex;
@@ -34,6 +35,17 @@ body {
       li:last-child {
         background-color: $Primary;
       }
+    }
+  }
+  // Main container
+  main {
+    .firstContainer {
+      display: flex;
+      height: 814px;
+      align-items: center;
+      background: url("../images/Rectangle_37.png") no-repeat;
+      background-size: contain;
+      background-position: left;
     }
   }
 }

@@ -24,4 +24,12 @@ body .header ul li a {
 }
 body .header ul li:last-child {
   background-color: #5221e6;
+}
+body main .firstContainer {
+  display: flex;
+  height: 814px;
+  align-items: center;
+  background: url("../images/Rectangle_37.png") no-repeat;
+  background-size: contain;
+  background-position: left;
 }/*# sourceMappingURL=style.css.map */
