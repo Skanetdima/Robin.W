@@ -45,9 +45,28 @@ $VioletAccent: #fbe4ff;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  text-align: left;
   color: $LightGrey;
   text-transform: uppercase;
+  opacity: 0.5;
+}
+.label1 {
+  font-size: 117px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $LightGrey;
+  opacity: 0.5;
+}
+.body1 {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: $LightGrey;
   opacity: 0.5;
 }
 //Body
@@ -90,7 +109,23 @@ body {
       background: url("../images/Rectangle_37.png") no-repeat $Level1;
       background-size: contain;
       background-position: left;
-      .secondContainer {
+    }
+    .secondContainer {
+      padding-left: 3vw;
+      padding-top: 2vw;
+      .secondContainerItems {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 24px;
+        align-items: center;
+        div {
+          display: grid;
+          grid-template-rows: repeat(2, auto) 70px;
+          gap: 1vw;
+        }
+        p {
+          max-width: 368px;
+        }
       }
     }
   }

@@ -35,9 +35,30 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  text-align: left;
   color: #deecf9;
   text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.label1 {
+  font-size: 117px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #deecf9;
+  opacity: 0.5;
+}
+
+.body1 {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #deecf9;
   opacity: 0.5;
 }
 
@@ -78,4 +99,23 @@ body main .firstContainer {
   background: url("../images/Rectangle_37.png") no-repeat #181823;
   background-size: contain;
   background-position: left;
+}
+body main .secondContainer {
+  padding-left: 3vw;
+  padding-top: 2vw;
+}
+body main .secondContainer .secondContainerItems {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  align-items: center;
+}
+body main .secondContainer .secondContainerItems div {
+  display: grid;
+  grid-template-rows: repeat(2, auto) 70px;
+  gap: 1vw;
+}
+body main .secondContainer .secondContainerItems p {
+  max-width: 368px;
 }/*# sourceMappingURL=style.css.map */
