@@ -10,6 +10,28 @@ $GreenAccent: #3cc74e;
 $PinkAccent: #e95d90;
 $PeachAccent: #fff3e4;
 $VioletAccent: #fbe4ff;
+
+// Special classes
+.heading1 {
+  font-size: 78px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  span {
+    opacity: 0.5;
+  }
+}
+.pargraph {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
 //Body
 body {
   font-family: "Sen";
@@ -42,8 +64,12 @@ body {
     .firstContainer {
       display: flex;
       height: 814px;
-      align-items: center;
-      background: url("../images/Rectangle_37.png") no-repeat;
+      row-gap: 1vw;
+      padding-right: 2vw;
+      flex-direction: column;
+      align-items: end;
+      justify-content: center;
+      background: url("../images/Rectangle_37.png") no-repeat $Level1;
       background-size: contain;
       background-position: left;
     }

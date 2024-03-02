@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+.heading1 {
+  font-size: 78px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.heading1 span {
+  opacity: 0.5;
+}
+
+.pargraph {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
 body {
   font-family: "Sen";
   background-color: #000000;
@@ -28,8 +49,12 @@ body .header ul li:last-child {
 body main .firstContainer {
   display: flex;
   height: 814px;
-  align-items: center;
-  background: url("../images/Rectangle_37.png") no-repeat;
+  row-gap: 1vw;
+  padding-right: 2vw;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  background: url("../images/Rectangle_37.png") no-repeat #181823;
   background-size: contain;
   background-position: left;
 }/*# sourceMappingURL=style.css.map */
