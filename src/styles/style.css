@@ -173,4 +173,25 @@ body .fourthContainer ul li {
 }
 body .fourthContainer ul li p {
   max-width: 368px;
+}
+body .fifthContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw;
+}
+body .fifthContainer ul {
+  display: grid;
+  grid-template-columns: repeat(4, 340px);
+  grid-template-rows: 140px;
+  align-items: center;
+  list-style-type: none;
+}
+body .fifthContainer ul li {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #181823;
 }/*# sourceMappingURL=style.css.map */
