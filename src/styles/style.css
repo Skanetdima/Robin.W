@@ -101,8 +101,7 @@ body main .firstContainer {
   background-position: left;
 }
 body main .secondContainer {
-  padding-left: 3vw;
-  padding-top: 2vw;
+  padding: 2vw 3vw;
 }
 body main .secondContainer .secondContainerItems {
   display: grid;
@@ -118,4 +117,32 @@ body main .secondContainer .secondContainerItems div {
 }
 body main .secondContainer .secondContainerItems p {
   max-width: 368px;
+}
+body .thirdContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3vw;
+  align-items: flex-start;
+  gap: 4vw;
+  height: 600px;
+  background: url("../images/Rectangle_39.png") no-repeat right #fff3e4;
+}
+body .thirdContainer h2 {
+  color: #181823;
+}
+body .thirdContainer p {
+  color: #181823;
+  opacity: 0.5;
+}
+body .thirdContainer a {
+  text-decoration: none;
+  padding-bottom: 4px;
+  color: #181823;
+  border-bottom: 1px solid #c7e0f4;
+  transition: 0.4s ease-in;
+}
+body .thirdContainer a:hover {
+  color: #5221e6;
+  border-bottom: 1px solid #5221e6;
 }/*# sourceMappingURL=style.css.map */

@@ -111,8 +111,7 @@ body {
       background-position: left;
     }
     .secondContainer {
-      padding-left: 3vw;
-      padding-top: 2vw;
+      padding: 2vw 3vw;
       .secondContainerItems {
         display: grid;
         grid-template-columns: repeat(3, auto);
@@ -127,6 +126,34 @@ body {
           max-width: 368px;
         }
       }
+    }
+  }
+  .thirdContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    align-items: flex-start;
+    gap: 4vw;
+    height: 600px;
+    background: url("../images/Rectangle_39.png") no-repeat right $PeachAccent;
+    h2 {
+      color: $Level1;
+    }
+    p {
+      color: $Level1;
+      opacity: 0.5;
+    }
+    a {
+      text-decoration: none;
+      padding-bottom: 4px;
+      color: $Level1;
+      border-bottom: 1px solid $DarkGrey;
+      transition: 0.4s ease-in;
+    }
+    a:hover {
+      color: $Primary;
+      border-bottom: 1px solid $Primary;
     }
   }
 }
