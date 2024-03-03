@@ -51,7 +51,7 @@
   opacity: 0.5;
 }
 
-.body1 {
+.body2 {
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -101,7 +101,7 @@ body main .firstContainer {
   background-position: left;
 }
 body main .secondContainer {
-  padding: 2vw 3vw;
+  padding: 5vw;
 }
 body main .secondContainer .secondContainerItems {
   display: grid;
@@ -122,7 +122,7 @@ body .thirdContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 3vw;
+  padding-left: 5vw;
   align-items: flex-start;
   gap: 4vw;
   height: 600px;
@@ -150,7 +150,12 @@ body .thirdContainer a:hover {
 body .fourthContainer {
   display: flex;
   align-items: flex-start;
-  padding: 5vw 3vw;
+  padding: 5vw;
+  gap: 2vw;
+}
+body .fourthContainer .fourthContainerHeaderContainer {
+  max-width: 416px;
+  width: 100%;
 }
 body .fourthContainer .fourthContainerHeaderContainer p {
   max-width: 368px;
@@ -160,6 +165,11 @@ body .fourthContainer ul {
   grid-template-columns: repeat(2, 416px);
   list-style-type: none;
   gap: 1vw;
+}
+body .fourthContainer ul li {
+  display: grid;
+  gap: 1vw;
+  grid-template-rows: repeat(4, auto);
 }
 body .fourthContainer ul li p {
   max-width: 368px;

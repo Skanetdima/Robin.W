@@ -17,7 +17,7 @@ export const SecondContainer = ({ className }) => {
         </span>
         {item.name}
       </h3>
-      <p className="body1">{item.text}</p>
+      <p className="body2">{item.text}</p>
     </div>
   ));
   return (

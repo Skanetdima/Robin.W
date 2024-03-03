@@ -59,7 +59,7 @@ $VioletAccent: #fbe4ff;
   color: $LightGrey;
   opacity: 0.5;
 }
-.body1 {
+.body2 {
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -111,7 +111,7 @@ body {
       background-position: left;
     }
     .secondContainer {
-      padding: 2vw 3vw;
+      padding: 5vw;
       .secondContainerItems {
         display: grid;
         grid-template-columns: repeat(3, auto);
@@ -133,7 +133,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 3vw;
+    padding-left: 5vw;
     align-items: flex-start;
     gap: 4vw;
     height: 600px;
@@ -162,8 +162,11 @@ body {
   .fourthContainer {
     display: flex;
     align-items: flex-start;
-    padding: 5vw 3vw;
+    padding: 5vw;
+    gap: 2vw;
     .fourthContainerHeaderContainer {
+      max-width: 416px;
+      width: 100%;
       p {
         max-width: 368px;
       }
@@ -174,6 +177,9 @@ body {
       list-style-type: none;
       gap: 1vw;
       li {
+        display: grid;
+        gap: 1vw;
+        grid-template-rows: repeat(4, auto);
         p {
           max-width: 368px;
         }
