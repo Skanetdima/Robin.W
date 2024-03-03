@@ -146,4 +146,21 @@ body .thirdContainer a {
 body .thirdContainer a:hover {
   color: #5221e6;
   border-bottom: 1px solid #5221e6;
+}
+body .fourthContainer {
+  display: flex;
+  align-items: flex-start;
+  padding: 5vw 3vw;
+}
+body .fourthContainer .fourthContainerHeaderContainer p {
+  max-width: 368px;
+}
+body .fourthContainer ul {
+  display: grid;
+  grid-template-columns: repeat(2, 416px);
+  list-style-type: none;
+  gap: 1vw;
+}
+body .fourthContainer ul li p {
+  max-width: 368px;
 }/*# sourceMappingURL=style.css.map */

@@ -128,6 +128,7 @@ body {
       }
     }
   }
+  // Third Container
   .thirdContainer {
     display: flex;
     flex-direction: column;
@@ -155,6 +156,28 @@ body {
     a:hover {
       color: $Primary;
       border-bottom: 1px solid $Primary;
+    }
+  }
+  // Fourth Container
+  .fourthContainer {
+    display: flex;
+    align-items: flex-start;
+    padding: 5vw 3vw;
+    .fourthContainerHeaderContainer {
+      p {
+        max-width: 368px;
+      }
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 416px);
+      list-style-type: none;
+      gap: 1vw;
+      li {
+        p {
+          max-width: 368px;
+        }
+      }
     }
   }
 }
