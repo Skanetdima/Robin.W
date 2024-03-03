@@ -6,11 +6,11 @@ export const SecondContainer = ({ className }) => {
       <h3>
         <span
           style={
-            item.company === "Google"
-              ? { color: "green" }
-              : item.company === "Facebook"
-              ? { color: "blue" }
-              : { color: "red" }
+            item.id === 0
+              ? { color: "#3CC74E" }
+              : item.id === 1
+              ? { color: "#5221E6" }
+              : { color: "#E95D90" }
           }
         >
           {item.company}
