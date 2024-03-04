@@ -290,5 +290,13 @@ body {
         border-bottom: 1px solid $Primary;
       }
     }
+    // Eighth container
+    .eighthContainer {
+      p {
+        max-width: 636px;
+        color: $LightGrey;
+        opacity: 0.5;
+      }
+    }
   }
 }

@@ -273,4 +273,15 @@ body main .seventhContainer a {
 body main .seventhContainer a:hover {
   color: #5221e6;
   border-bottom: 1px solid #5221e6;
+}
+body main .eighthContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+body main .eighthContainer p {
+  max-width: 636px;
+  color: #deecf9;
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
