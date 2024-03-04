@@ -110,6 +110,8 @@ body main .firstContainer {
   background-position: left;
 }
 body main .secondContainer {
+  display: grid;
+  justify-content: center;
   padding: 5vw;
 }
 body main .secondContainer .secondContainerItems {
@@ -148,7 +150,7 @@ body main .thirdContainer a {
   text-decoration: none;
   padding-bottom: 4px;
   color: #181823;
-  border-bottom: 1px solid #c7e0f4;
+  border-bottom: 1px solid #5b6876;
   margin-top: 5vw;
   transition: 0.4s ease-in;
 }
@@ -159,6 +161,7 @@ body main .thirdContainer a:hover {
 body main .fourthContainer {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   padding: 5vw;
   gap: 2vw;
 }
@@ -207,6 +210,7 @@ body main .fifthContainer ul li {
 body main .sixthContainer {
   display: grid;
   grid-template-columns: repeat(2, 636px);
+  justify-content: center;
   gap: 1vw;
   padding: 5vw;
 }
@@ -287,8 +291,75 @@ body main .eighthContainer div:first-child {
   flex-direction: column;
   row-gap: 2vw;
 }
+body main .eighthContainer a {
+  text-decoration: none;
+  padding-bottom: 4px;
+  color: #ffffff;
+  border-bottom: 1px solid #deecf9;
+  margin-top: 2vw;
+  transition: 0.4s ease-in;
+}
+body main .eighthContainer a:hover {
+  color: #5221e6;
+  border-bottom: 1px solid #5221e6;
+}
 body main .eighthContainer p {
   max-width: 636px;
   color: #deecf9;
   opacity: 0.5;
+}
+body main .ninthContainer {
+  display: grid;
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
+  padding: 5vw;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+}
+body main .ninthContainer div p,
+body main .ninthContainer div h2 {
+  max-width: 588px;
+}
+body main .ninthContainer div p {
+  color: #deecf9;
+  opacity: 0.5;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+body main .ninthContainer div a {
+  text-decoration: none;
+  padding-bottom: 4px;
+  color: #ffffff;
+  border-bottom: 1px solid #c7e0f4;
+  transition: 0.4s ease-in;
+}
+body main .ninthContainer div a:hover {
+  color: #5221e6;
+  border-bottom: 1px solid #5221e6;
+}
+body main .ninthContainer ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8vw;
+  list-style-type: none;
+}
+body main .ninthContainer ul li {
+  display: flex;
+  flex-direction: column;
+}
+body main .ninthContainer ul li div {
+  display: grid;
+  padding: 4.5vw;
+  border: solid 1px #5b6876;
+}
+body main .ninthContainer ul li h4 {
+  padding-top: 4.5vw;
+  padding-bottom: 1vw;
+  color: #5b6876;
+}
+body main .ninthContainer ul li span {
+  color: #5b6876;
+}
+body main .ninthContainer ul li h3 {
+  max-width: 508px;
 }/*# sourceMappingURL=style.css.map */

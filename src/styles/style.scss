@@ -3,7 +3,7 @@
 $Base: #000000;
 $Level1: #181823;
 $LightGrey: #deecf9;
-$DarkGrey: #c7e0f4;
+$DarkGrey: #5b6876;
 $Text: #ffffff;
 $Primary: #5221e6;
 $GreenAccent: #3cc74e;
@@ -119,6 +119,8 @@ body {
       background-position: left;
     }
     .secondContainer {
+      display: grid;
+      justify-content: center;
       padding: 5vw;
       .secondContainerItems {
         display: grid;
@@ -169,6 +171,7 @@ body {
     .fourthContainer {
       display: flex;
       align-items: flex-start;
+      justify-content: center;
       padding: 5vw;
       gap: 2vw;
       .fourthContainerHeaderContainer {
@@ -219,6 +222,7 @@ body {
     .sixthContainer {
       display: grid;
       grid-template-columns: repeat(2, 636px);
+      justify-content: center;
       gap: 1vw;
       padding: 5vw;
       .sixthContainerItem:last-child {
@@ -303,10 +307,80 @@ body {
         flex-direction: column;
         row-gap: 2vw;
       }
+      a {
+        text-decoration: none;
+        padding-bottom: 4px;
+        color: $Text;
+        border-bottom: 1px solid $LightGrey;
+        margin-top: 2vw;
+        transition: 0.4s ease-in;
+      }
+      a:hover {
+        color: $Primary;
+        border-bottom: 1px solid $Primary;
+      }
+
       p {
         max-width: 636px;
         color: $LightGrey;
         opacity: 0.5;
+      }
+    }
+    // Ninth Container
+    .ninthContainer {
+      display: grid;
+      column-gap: 1vw;
+      padding: 5vw;
+      grid-template-columns: repeat(2, auto);
+      justify-content: center;
+      div {
+        p,
+        h2 {
+          max-width: 588px;
+        }
+        p {
+          color: $LightGrey;
+          opacity: 0.5;
+          margin-top: 1vw;
+          margin-bottom: 2vw;
+        }
+        a {
+          text-decoration: none;
+          padding-bottom: 4px;
+          color: $Text;
+          border-bottom: 1px solid #c7e0f4;
+          transition: 0.4s ease-in;
+        }
+        a:hover {
+          color: #5221e6;
+          border-bottom: 1px solid #5221e6;
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8vw;
+        list-style-type: none;
+        li {
+          display: flex;
+          flex-direction: column;
+          div {
+            display: grid;
+            padding: 4.5vw;
+            border: solid 1px $DarkGrey;
+          }
+          h4 {
+            padding-top: 4.5vw;
+            padding-bottom: 1vw;
+            color: $DarkGrey;
+          }
+          span {
+            color: $DarkGrey;
+          }
+          h3 {
+            max-width: 508px;
+          }
+        }
       }
     }
   }
