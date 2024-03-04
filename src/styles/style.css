@@ -245,5 +245,32 @@ body main .sixthContainer div ul li div p {
   max-width: 572px;
 }
 body main .seventhContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5vw;
+  align-items: flex-start;
+  gap: 4vw;
+  height: 600px;
   background: url("../images/Rectangle_39_1_.png") no-repeat right #fbe4ff;
+}
+body main .seventhContainer h2,
+body main .seventhContainer p {
+  color: #000000;
+}
+body main .seventhContainer p {
+  max-width: 576px;
+  opacity: 0.5;
+}
+body main .seventhContainer a {
+  text-decoration: none;
+  padding-bottom: 4px;
+  color: #181823;
+  border-bottom: 1px solid #c7e0f4;
+  margin-top: 5vw;
+  transition: 0.4s ease-in;
+}
+body main .seventhContainer a:hover {
+  color: #5221e6;
+  border-bottom: 1px solid #5221e6;
 }/*# sourceMappingURL=style.css.map */
