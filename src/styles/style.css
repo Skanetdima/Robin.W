@@ -399,4 +399,15 @@ body main .tenthContainer ul {
   display: flex;
   gap: 1vw;
   list-style-type: none;
+}
+body main .eleventhContainer p {
+  max-width: 526px;
+  color: #5b6876;
+}
+body main .eleventhContainer form {
+  display: flex;
+  flex-direction: column;
+}
+body main .eleventhContainer form .eleventhTextInput {
+  background: #181823;
 }/*# sourceMappingURL=style.css.map */
