@@ -69,6 +69,14 @@ $VioletAccent: #fbe4ff;
   color: $LightGrey;
   opacity: 0.5;
 }
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
 //Body
 body {
   font-family: "Sen";
@@ -127,92 +135,127 @@ body {
         }
       }
     }
-  }
-  // Third Container
-  .thirdContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 5vw;
-    align-items: flex-start;
-    gap: 4vw;
-    height: 600px;
-    background: url("../images/Rectangle_39.png") no-repeat right $PeachAccent;
-    h2 {
-      color: $Level1;
-    }
-    p {
-      color: $Level1;
-      opacity: 0.5;
-    }
-    a {
-      text-decoration: none;
-      padding-bottom: 4px;
-      color: $Level1;
-      border-bottom: 1px solid $DarkGrey;
-      margin-top: 5vw;
-      transition: 0.4s ease-in;
-    }
-    a:hover {
-      color: $Primary;
-      border-bottom: 1px solid $Primary;
-    }
-  }
-  // Fourth Container
-  .fourthContainer {
-    display: flex;
-    align-items: flex-start;
-    padding: 5vw;
-    gap: 2vw;
-    .fourthContainerHeaderContainer {
-      max-width: 416px;
-      width: 100%;
+    // Third Container
+    .thirdContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 5vw;
+      align-items: flex-start;
+      gap: 4vw;
+      height: 600px;
+      background: url("../images/Rectangle_39.png") no-repeat right $PeachAccent;
+      h2 {
+        color: $Level1;
+      }
       p {
-        max-width: 368px;
+        color: $Level1;
+        opacity: 0.5;
+      }
+      a {
+        text-decoration: none;
+        padding-bottom: 4px;
+        color: $Level1;
+        border-bottom: 1px solid $DarkGrey;
+        margin-top: 5vw;
+        transition: 0.4s ease-in;
+      }
+      a:hover {
+        color: $Primary;
+        border-bottom: 1px solid $Primary;
       }
     }
-    ul {
-      display: grid;
-      grid-template-columns: repeat(2, 416px);
-      list-style-type: none;
-      gap: 1vw;
-      li {
-        display: grid;
-        gap: 1vw;
-        grid-template-rows: repeat(4, auto);
+    // Fourth Container
+    .fourthContainer {
+      display: flex;
+      align-items: flex-start;
+      padding: 5vw;
+      gap: 2vw;
+      .fourthContainerHeaderContainer {
+        max-width: 416px;
+        width: 100%;
         p {
           max-width: 368px;
         }
       }
-    }
-  }
-  // Fifth Container
-  .fifthContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5vw;
-    ul {
-      display: grid;
-      grid-template-columns: repeat(4, 340px);
-      grid-template-rows: 140px;
-      align-items: center;
-      list-style-type: none;
-      li {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 1px $Level1;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 416px);
+        list-style-type: none;
+        gap: 1vw;
+        li {
+          display: grid;
+          gap: 1vw;
+          grid-template-rows: repeat(4, auto);
+          p {
+            max-width: 368px;
+          }
+        }
       }
     }
-  }
-  // Sixth container
-  .sixthContainer {
-    div {
-      h2 {
-        max-width: 572px;
+    // Fifth Container
+    .fifthContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5vw;
+      ul {
+        display: grid;
+        grid-template-columns: repeat(4, 340px);
+        grid-template-rows: 140px;
+        align-items: center;
+        list-style-type: none;
+        li {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: solid 1px $Level1;
+        }
+      }
+    }
+    // Sixth container
+    .sixthContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 636px);
+      gap: 1vw;
+      padding: 5vw;
+      .sixthContainerItem:last-child {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5vw;
+      }
+      div {
+        h2 {
+          max-width: 572px;
+          padding-bottom: 3vw;
+        }
+        button {
+          padding: 1.5vw 2vw;
+          border: 1px solid $Primary;
+        }
+        ul {
+          list-style-type: none;
+          display: flex;
+          flex-direction: column;
+          gap: 1vw;
+          li {
+            background: $Level1;
+            div {
+              display: grid;
+              grid-template-rows: repeat(2, auto);
+              gap: 0.5vw;
+              padding: 2vw 1.5vw;
+              p {
+                color: $LightGrey;
+                opacity: 0.5;
+                max-width: 572px;
+              }
+            }
+          }
+        }
       }
     }
   }
