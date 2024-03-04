@@ -274,6 +274,19 @@ body main .seventhContainer a:hover {
   color: #5221e6;
   border-bottom: 1px solid #5221e6;
 }
+body main .eighthContainer {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 8vw;
+  justify-content: center;
+  padding: 5vw;
+}
+body main .eighthContainer div:first-child {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 2vw;
+}
 body main .eighthContainer p {
   max-width: 636px;
   color: #deecf9;
