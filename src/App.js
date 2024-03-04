@@ -6,7 +6,7 @@ import { ThirdContainer } from "./thirdContainer";
 import { FourthContainer } from "./fourthContainer";
 import { FifthContainer } from "./fifthContainer";
 import { SixthContainer } from "./sixthContainer";
-
+import { SeventhContainer } from "./seventhContainer";
 export default function App() {
   return (
     <>
@@ -18,6 +18,7 @@ export default function App() {
         <FourthContainer className="fourthContainer" />
         <FifthContainer className="fifthContainer" />
         <SixthContainer className="sixthContainer" />
+        <SeventhContainer className="seventhContainer" />
       </main>
     </>
   );

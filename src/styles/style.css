@@ -243,4 +243,7 @@ body main .sixthContainer div ul li div p {
   color: #deecf9;
   opacity: 0.5;
   max-width: 572px;
+}
+body main .seventhContainer {
+  background: url("../images/Rectangle_39_1_.png") no-repeat right #fbe4ff;
 }/*# sourceMappingURL=style.css.map */
