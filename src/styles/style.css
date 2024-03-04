@@ -362,4 +362,41 @@ body main .ninthContainer ul li span {
 }
 body main .ninthContainer ul li h3 {
   max-width: 508px;
+}
+body main .tenthContainer {
+  display: grid;
+  justify-content: center;
+  padding: 5vw;
+}
+body main .tenthContainer p {
+  color: #5b6876;
+  max-width: 588px;
+  padding-bottom: 2vw;
+}
+body main .tenthContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  padding-bottom: 2vw;
+}
+body main .tenthContainer div ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+body main .tenthContainer div ul li:first-child {
+  background: #5221e6;
+}
+body main .tenthContainer div ul li {
+  border: 1px solid #5221e6;
+  padding: 0.75vw;
+}
+body main .tenthContainer div ul li a {
+  text-decoration: none;
+}
+body main .tenthContainer ul {
+  display: flex;
+  gap: 1vw;
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */

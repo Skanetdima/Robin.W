@@ -385,6 +385,41 @@ body {
     }
     // tenth container
     .tenthContainer {
+      display: grid;
+      justify-content: center;
+      padding: 5vw;
+      p {
+        color: $DarkGrey;
+        max-width: 588px;
+        padding-bottom: 2vw;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding-bottom: 2vw;
+        ul {
+          list-style-type: none;
+          display: flex;
+          align-items: center;
+          gap: 1vw;
+          li:first-child {
+            background: $Primary;
+          }
+          li {
+            border: 1px solid $Primary;
+            padding: 0.75vw;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      ul {
+        display: flex;
+        gap: 1vw;
+        list-style-type: none;
+      }
     }
   }
 }
