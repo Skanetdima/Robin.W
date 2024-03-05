@@ -1,4 +1,15 @@
 export const EleventhContainer = ({ className }) => {
+  const formItems = (getText) => {
+    return (
+      <label>
+        <span>{getText}</span>
+        <input
+          className={getText === "Message" ? "messageInput" : null}
+          type={getText === "Email" ? "email" : "text"}
+        />
+      </label>
+    );
+  };
   return (
     <div className={className}>
       <div>
@@ -9,34 +20,10 @@ export const EleventhContainer = ({ className }) => {
         </p>
       </div>
       <form>
-        <label>
-          Name
-          <input
-            className="eleventhTextInput"
-            type="text"
-            value=""
-            onChange=""
-          />
-        </label>
-        <label>
-          Email
-          <input
-            className="eleventhTextInput"
-            type="text"
-            value=""
-            onChange=""
-          />
-        </label>
-        <label>
-          Message
-          <input
-            className="eleventhTextInput"
-            type="text"
-            value=""
-            onChange=""
-          />
-        </label>
-        <input type="submit" value="Submit" />
+        {formItems("Name")}
+        {formItems("Email")}
+        {formItems("Message")}
+        <input className="button" type="submit" value="Let’s get started" />
       </form>
     </div>
   );

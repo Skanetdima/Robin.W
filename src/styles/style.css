@@ -400,6 +400,14 @@ body main .tenthContainer ul {
   gap: 1vw;
   list-style-type: none;
 }
+body main .eleventhContainer {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 526px);
+  justify-content: center;
+  gap: 1vw;
+  padding: 5vw;
+}
 body main .eleventhContainer p {
   max-width: 526px;
   color: #5b6876;
@@ -407,7 +415,26 @@ body main .eleventhContainer p {
 body main .eleventhContainer form {
   display: flex;
   flex-direction: column;
+  gap: 2vw;
+}
+body main .eleventhContainer form label {
+  max-width: 526px;
+  display: flex;
+  flex-direction: column;
+}
+body main .eleventhContainer form label input {
+  border: none;
+  background: #181823;
+  height: 50px;
+}
+body main .eleventhContainer form label .messageInput {
+  height: 100px;
 }
 body main .eleventhContainer form .eleventhTextInput {
   background: #181823;
+}
+body main .eleventhContainer form .button {
+  text-transform: uppercase;
+  background-color: #5221e6;
+  padding: 1vw 2vw;
 }/*# sourceMappingURL=style.css.map */
