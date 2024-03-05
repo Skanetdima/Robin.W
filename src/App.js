@@ -11,6 +11,7 @@ import { EighthContainer } from "./eighthContainer";
 import { NinthContainer } from "./ninthContainer";
 import { TenthContainer } from "./tenthContainer";
 import { EleventhContainer } from "./eleventhContainer";
+import { Footer } from "./footer";
 export default function App() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function App() {
         <NinthContainer className="ninthContainer" />
         <TenthContainer className="tenthContainer" />
         <EleventhContainer className="eleventhContainer" />
+        <Footer />
       </main>
     </>
   );
