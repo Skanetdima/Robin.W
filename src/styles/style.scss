@@ -461,4 +461,37 @@ body {
       }
     }
   }
+  // Footer
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 426px);
+    grid-template-rows: repeat(2, auto);
+    padding: 5vw;
+    background: $Level1;
+    justify-content: space-between;
+    span {
+      margin-top: 5vw;
+      font-size: 16px;
+      max-width: 426px;
+    }
+    ul {
+      display: grid;
+      list-style-type: none;
+      grid-template-columns: repeat(2, auto);
+      gap: 1vw;
+      a {
+        text-decoration: none;
+      }
+    }
+    div {
+      display: flex;
+      gap: 1.5vw;
+      flex-direction: column;
+      align-items: flex-start;
+      ul {
+        display: flex;
+        gap: 0.5vw;
+      }
+    }
+  }
 }

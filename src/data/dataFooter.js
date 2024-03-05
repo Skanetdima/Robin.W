@@ -15,3 +15,33 @@ export const dataFooterImg = [
     image: LinkedIn,
   },
 ];
+export const dataFooterLinks = [
+  {
+    id: 0,
+    name: "Home",
+  },
+  {
+    id: 1,
+    name: "About",
+  },
+  {
+    id: 2,
+    name: "Work",
+  },
+  {
+    id: 3,
+    name: "Process",
+  },
+  {
+    id: 4,
+    name: "Store",
+  },
+  {
+    id: 5,
+    name: "Blog",
+  },
+  {
+    id: 6,
+    name: "Reading List",
+  },
+];

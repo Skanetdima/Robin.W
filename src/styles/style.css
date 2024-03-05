@@ -437,4 +437,36 @@ body main .eleventhContainer form .button {
   text-transform: uppercase;
   background-color: #5221e6;
   padding: 1vw 2vw;
+}
+body footer {
+  display: grid;
+  grid-template-columns: repeat(2, 426px);
+  grid-template-rows: repeat(2, auto);
+  padding: 5vw;
+  background: #181823;
+  justify-content: space-between;
+}
+body footer span {
+  margin-top: 5vw;
+  font-size: 16px;
+  max-width: 426px;
+}
+body footer ul {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(2, auto);
+  gap: 1vw;
+}
+body footer ul a {
+  text-decoration: none;
+}
+body footer div {
+  display: flex;
+  gap: 1.5vw;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body footer div ul {
+  display: flex;
+  gap: 0.5vw;
 }/*# sourceMappingURL=style.css.map */

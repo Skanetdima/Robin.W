@@ -28,8 +28,8 @@ export default function App() {
         <NinthContainer className="ninthContainer" />
         <TenthContainer className="tenthContainer" />
         <EleventhContainer className="eleventhContainer" />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import footerLogo from "./images/Vector_2_.svg";
-import { dataFooterImg } from "./data/dataFooter";
+import { dataFooterImg, dataFooterLinks } from "./data/dataFooter";
 
 export const Footer = () => {
   const imgItems = dataFooterImg.map((object) => (
@@ -9,14 +9,22 @@ export const Footer = () => {
       </a>
     </li>
   ));
+  const linksItems = dataFooterLinks.map((object) => (
+    <li key={object.id}>
+      <a href="#">{object.name}</a>
+    </li>
+  ));
   return (
     <footer>
       <div>
         <img src={footerLogo} />
         <ul>{imgItems}</ul>
       </div>
-      <ul></ul>
-      <ul></ul>
+      <ul>{linksItems}</ul>
+
+      <span className="body2">
+        Not Copyright 2020 • Robin Williams. Webflow cloneable
+      </span>
     </footer>
   );
 };
