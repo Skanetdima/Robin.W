@@ -1,7 +1,9 @@
 import { dataFifthContainer } from "./data/dataFifthContainer";
 export const FifthContainer = ({ className }) => {
   const divItems = dataFifthContainer.map((object) => (
-    <img key={object.id} src={object.image} />
+    <li>
+      <img key={object.id} src={object.image} />
+    </li>
   ));
   return (
     <div className={className}>
