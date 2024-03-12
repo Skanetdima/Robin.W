@@ -197,26 +197,45 @@ body {
       }
     }
     // Fifth Container
-    .fifthContainer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 5vw;
-      ul {
-        display: grid;
-        grid-template-columns: repeat(4, 340px);
-        grid-template-rows: 140px;
-        align-items: center;
-        list-style-type: none;
-        li {
-          height: 100%;
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          border: solid 1px $Level1;
-        }
+    @keyframes slide {
+      from {
+        transform: translateX(0);
       }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    .fifthContainer {
+      max-width: 1360px;
+      margin: auto;
+      overflow: hidden;
+      padding-block: 5vw;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .fifthContainer:before,
+    .fifthContainer:after {
+      position: absolute;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      content: "";
+      z-index: 2;
+    }
+    .fifthContainer:hover .logosSlider {
+      animation-play-state: paused;
+    }
+
+    .logosSlider {
+      display: inline-block;
+      animation: 25s slide infinite linear;
+    }
+
+    .logosSlider img {
+      height: 50px;
+      margin: 0 40px;
     }
     // Sixth container
     .sixthContainer {
@@ -494,4 +513,8 @@ body {
       }
     }
   }
+}
+
+// Optimization
+@media (max-width: 1000px) {
 }

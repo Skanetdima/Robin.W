@@ -186,26 +186,41 @@ body main .fourthContainer ul li {
 body main .fourthContainer ul li p {
   max-width: 368px;
 }
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 body main .fifthContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5vw;
+  max-width: 1360px;
+  margin: auto;
+  overflow: hidden;
+  padding-block: 5vw;
+  white-space: nowrap;
+  position: relative;
 }
-body main .fifthContainer ul {
-  display: grid;
-  grid-template-columns: repeat(4, 340px);
-  grid-template-rows: 140px;
-  align-items: center;
-  list-style-type: none;
-}
-body main .fifthContainer ul li {
+body main .fifthContainer:before,
+body main .fifthContainer:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
   height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid 1px #181823;
+  content: "";
+  z-index: 2;
+}
+body main .fifthContainer:hover .logosSlider {
+  animation-play-state: paused;
+}
+body main .logosSlider {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+body main .logosSlider img {
+  height: 50px;
+  margin: 0 40px;
 }
 body main .sixthContainer {
   display: grid;
