@@ -433,7 +433,6 @@ body main .tenthContainer ul {
 }
 body main .eleventhContainer {
   display: grid;
-  flex-direction: column;
   grid-template-columns: repeat(2, 526px);
   justify-content: center;
   gap: 1vw;
@@ -500,4 +499,32 @@ body footer div {
 body footer div ul {
   display: flex;
   gap: 0.5vw;
+}
+
+@media (max-width: 1000px) {
+  body main .firstContainer {
+    max-width: 100%;
+  }
+  body main .fourthContainer {
+    flex-direction: column;
+  }
+  body main .sixthContainer {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: none;
+  }
+  body main .eighthContainer img {
+    width: 100%;
+  }
+  body main .ninthContainer {
+    row-gap: 3vw;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, auto);
+  }
+  body main .tenthContainer ul {
+    flex-wrap: wrap;
+  }
+  body main .eleventhContainer {
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: none;
+  }
 }/*# sourceMappingURL=style.css.map */
