@@ -541,11 +541,26 @@ body {
       // Fourth Container
       .fourthContainer {
         flex-direction: column;
+        ul {
+          grid-template-columns: repeat(2, 360px);
+          li {
+            p {
+              max-width: 40vw;
+            }
+          }
+        }
       }
       // Sixth Container
       .sixthContainer {
         grid-template-rows: repeat(2, auto);
         grid-template-columns: none;
+      }
+      // Seventh Container
+      .seventhContainer {
+        background-position: 400%;
+        p {
+          max-width: 37vw;
+        }
       }
       // Eight Container
       .eighthContainer {

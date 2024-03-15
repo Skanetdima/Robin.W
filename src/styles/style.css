@@ -508,9 +508,21 @@ body footer div ul {
   body main .fourthContainer {
     flex-direction: column;
   }
+  body main .fourthContainer ul {
+    grid-template-columns: repeat(2, 360px);
+  }
+  body main .fourthContainer ul li p {
+    max-width: 40vw;
+  }
   body main .sixthContainer {
     grid-template-rows: repeat(2, auto);
     grid-template-columns: none;
+  }
+  body main .seventhContainer {
+    background-position: 400%;
+  }
+  body main .seventhContainer p {
+    max-width: 37vw;
   }
   body main .eighthContainer img {
     width: 100%;
