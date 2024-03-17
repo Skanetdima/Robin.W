@@ -504,6 +504,17 @@ body footer div ul {
 @media (max-width: 1000px) {
   body main .firstContainer {
     max-width: 100%;
+    height: 60vw;
+    background-color: #000000;
+  }
+  body main .firstContainer h1 {
+    font-size: 55px;
+  }
+  body main .firstContainer p {
+    max-width: 62vw;
+  }
+  body main .secondContainer p {
+    font-size: 15px;
   }
   body main .fourthContainer {
     flex-direction: column;
@@ -518,11 +529,19 @@ body footer div ul {
     grid-template-rows: repeat(2, auto);
     grid-template-columns: none;
   }
-  body main .seventhContainer {
-    background-position: 400%;
+  body main .seventhContainer,
+  body main .thirdContainer {
+    background-position: 50vw;
   }
-  body main .seventhContainer p {
+  body main .seventhContainer p,
+  body main .seventhContainer h2,
+  body main .thirdContainer p,
+  body main .thirdContainer h2 {
     max-width: 37vw;
+  }
+  body main .seventhContainer p,
+  body main .thirdContainer p {
+    font-size: 15px;
   }
   body main .eighthContainer img {
     width: 100%;
@@ -538,5 +557,12 @@ body footer div ul {
   body main .eleventhContainer {
     grid-template-rows: repeat(2, auto);
     grid-template-columns: none;
+    justify-content: center;
+  }
+  body footer {
+    grid-template-columns: repeat(2, auto);
+  }
+  body footer ul {
+    grid-template-columns: repeat(2, 20vw);
   }
 }/*# sourceMappingURL=style.css.map */

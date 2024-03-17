@@ -537,6 +537,19 @@ body {
       // First Container
       .firstContainer {
         max-width: 100%;
+        height: 60vw;
+        background-color: #000000;
+        h1 {
+          font-size: 55px;
+        }
+        p {
+          max-width: 62vw;
+        }
+      }
+      .secondContainer {
+        p {
+          font-size: 15px;
+        }
       }
       // Fourth Container
       .fourthContainer {
@@ -556,10 +569,15 @@ body {
         grid-template-columns: none;
       }
       // Seventh Container
-      .seventhContainer {
-        background-position: 400%;
-        p {
+      .seventhContainer,
+      .thirdContainer {
+        background-position: 50vw;
+        p,
+        h2 {
           max-width: 37vw;
+        }
+        p {
+          font-size: 15px;
         }
       }
       // Eight Container
@@ -585,6 +603,14 @@ body {
       .eleventhContainer {
         grid-template-rows: repeat(2, auto);
         grid-template-columns: none;
+        justify-content: center;
+      }
+    }
+    // Footer
+    footer {
+      grid-template-columns: repeat(2, auto);
+      ul {
+        grid-template-columns: repeat(2, 20vw);
       }
     }
   }
