@@ -551,13 +551,16 @@ body footer div ul {
     grid-template-columns: none;
     grid-template-rows: repeat(2, auto);
   }
+  body main .tenthContainer div {
+    padding-left: 6vw;
+  }
   body main .tenthContainer ul {
     flex-wrap: wrap;
+    justify-content: center;
   }
   body main .eleventhContainer {
     grid-template-rows: repeat(2, auto);
     grid-template-columns: none;
-    justify-content: center;
   }
   body footer {
     grid-template-columns: repeat(2, auto);

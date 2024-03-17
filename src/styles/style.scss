@@ -594,8 +594,12 @@ body {
       }
       // Tenth Container
       .tenthContainer {
+        div {
+          padding-left: 6vw;
+        }
         ul {
           flex-wrap: wrap;
+          justify-content: center;
         }
       }
 
@@ -603,7 +607,6 @@ body {
       .eleventhContainer {
         grid-template-rows: repeat(2, auto);
         grid-template-columns: none;
-        justify-content: center;
       }
     }
     // Footer
