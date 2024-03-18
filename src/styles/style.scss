@@ -672,9 +672,74 @@ body {
       }
     }
     main {
+      // first container
       .firstContainer {
+        background: url(http://localhost:3000/static/media/Rectangle_37.b85942c5b3e4a7c24046.png)
+          no-repeat $Base;
+        background-position: top;
+        background-size: contain;
+        justify-content: end;
+        height: 175vw;
         h1 {
-          font-size: 28px;
+          font-size: 2rem;
+        }
+        p {
+          max-width: 94vw;
+        }
+      }
+      // second container
+      .secondContainer {
+        .heading2 {
+          font-size: 32px;
+        }
+        .secondContainerItems {
+          grid-template-columns: none;
+          grid-template-rows: repeat(3, auto);
+        }
+      }
+      // Third/Seventh container
+      .thirdContainer,
+      .seventhContainer {
+        height: 205vw;
+        padding-top: 5vw;
+        background-position: bottom;
+        background-size: contain;
+        justify-content: flex-start;
+        h2 {
+          font-size: 31px;
+        }
+        h2,
+        p {
+          max-width: none;
+        }
+        p {
+          font-size: 18px;
+          padding-bottom: 10vw;
+        }
+      }
+      // fourth container
+      .fourthContainer {
+        ul {
+          grid-template-rows: repeat(4, auto);
+          grid-template-columns: none;
+          li {
+            p {
+              max-width: 90vw;
+            }
+          }
+        }
+      }
+      // fifth container
+      .fifthContainer {
+        overflow: none;
+        grid-template-columns: none;
+        .logosSlider:last-child {
+          display: none;
+        }
+        .logosSlider {
+          grid-template-rows: repeat(3, 32vw);
+          grid-template-columns: repeat(2, 50vw); // edited source
+          animation: none;
         }
       }
     }

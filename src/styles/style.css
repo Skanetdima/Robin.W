@@ -616,7 +616,66 @@ body footer div ul {
   body .header ul.active {
     left: 0;
   }
+  body main .firstContainer {
+    background: url(http://localhost:3000/static/media/Rectangle_37.b85942c5b3e4a7c24046.png) no-repeat #000000;
+    background-position: top;
+    background-size: contain;
+    justify-content: end;
+    height: 175vw;
+  }
   body main .firstContainer h1 {
-    font-size: 28px;
+    font-size: 2rem;
+  }
+  body main .firstContainer p {
+    max-width: 94vw;
+  }
+  body main .secondContainer .heading2 {
+    font-size: 32px;
+  }
+  body main .secondContainer .secondContainerItems {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, auto);
+  }
+  body main .thirdContainer,
+  body main .seventhContainer {
+    height: 205vw;
+    padding-top: 5vw;
+    background-position: bottom;
+    background-size: contain;
+    justify-content: flex-start;
+  }
+  body main .thirdContainer h2,
+  body main .seventhContainer h2 {
+    font-size: 31px;
+  }
+  body main .thirdContainer h2,
+  body main .thirdContainer p,
+  body main .seventhContainer h2,
+  body main .seventhContainer p {
+    max-width: none;
+  }
+  body main .thirdContainer p,
+  body main .seventhContainer p {
+    font-size: 18px;
+    padding-bottom: 10vw;
+  }
+  body main .fourthContainer ul {
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: none;
+  }
+  body main .fourthContainer ul li p {
+    max-width: 90vw;
+  }
+  body main .fifthContainer {
+    overflow: none;
+    grid-template-columns: none;
+  }
+  body main .fifthContainer .logosSlider:last-child {
+    display: none;
+  }
+  body main .fifthContainer .logosSlider {
+    grid-template-rows: repeat(3, 32vw);
+    grid-template-columns: repeat(2, 50vw);
+    animation: none;
   }
 }/*# sourceMappingURL=style.css.map */
