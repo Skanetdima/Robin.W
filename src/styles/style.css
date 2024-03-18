@@ -97,6 +97,20 @@ body .header ul li a {
 body .header ul li:last-child {
   background-color: #5221e6;
 }
+body .header .hamburger {
+  display: none;
+  cursor: pointer;
+}
+body .header .hamburger .bar {
+  display: block;
+  width: 18px;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+  background-color: #c4c4c4;
+}
+body .header .hamburger .bar:last-child {
+  width: 13px;
+}
 body main .firstContainer {
   display: flex;
   height: 814px;
@@ -570,6 +584,27 @@ body footer div ul {
   }
 }
 @media (max-width: 767px) {
+  body .header {
+    height: 72px;
+  }
+  body .header .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    flex-direction: column;
+  }
+  body .header ul {
+    position: fixed;
+    left: -100%;
+    top: 72px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    transition: 0.3;
+  }
   body main .firstContainer h1 {
     font-size: 28px;
   }

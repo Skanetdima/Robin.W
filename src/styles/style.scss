@@ -103,6 +103,22 @@ body {
         background-color: $Primary;
       }
     }
+    // Burger Menu
+    .hamburger {
+      display: none;
+      cursor: pointer;
+      .bar {
+        display: block;
+        width: 18px;
+        height: 3px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #c4c4c4;
+      }
+      .bar:last-child {
+        width: 13px;
+      }
+    }
   }
   // Main container
   main {
@@ -622,6 +638,28 @@ body {
 // Optimization for mobile phones
 @media (max-width: 767px) {
   body {
+    .header {
+      height: 72px;
+      // hamb menu
+      .hamburger {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 5px;
+        flex-direction: column;
+      }
+      ul {
+        position: fixed;
+        left: -100%;
+        top: 72px;
+        gap: 0;
+        flex-direction: column;
+        background-color: $Base;
+        width: 100%;
+        text-align: center;
+        transition: 0.3;
+      }
+    }
     main {
       .firstContainer {
         h1 {

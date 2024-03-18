@@ -13,6 +13,10 @@ export const Header = ({ className }) => {
         <img src={headerLogo} />
       </div>
       <ul>{listItems}</ul>
+      <div className="hamburger">
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
     </header>
   );
 };
