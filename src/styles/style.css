@@ -501,7 +501,7 @@ body footer div ul {
   gap: 0.5vw;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px), (max-width: 992px) {
   body main .firstContainer {
     max-width: 100%;
     height: 60vw;
@@ -567,5 +567,10 @@ body footer div ul {
   }
   body footer ul {
     grid-template-columns: repeat(2, 20vw);
+  }
+}
+@media (max-width: 767px) {
+  body main .firstContainer h1 {
+    font-size: 28px;
   }
 }/*# sourceMappingURL=style.css.map */

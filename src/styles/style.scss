@@ -530,8 +530,8 @@ body {
   }
 }
 
-// Optimization
-@media (max-width: 1000px) {
+// Optimization for tablets
+@media (max-width: 1200px), (max-width: 992px) {
   body {
     main {
       // First Container
@@ -614,6 +614,19 @@ body {
       grid-template-columns: repeat(2, auto);
       ul {
         grid-template-columns: repeat(2, 20vw);
+      }
+    }
+  }
+}
+
+// Optimization for mobile phones
+@media (max-width: 767px) {
+  body {
+    main {
+      .firstContainer {
+        h1 {
+          font-size: 28px;
+        }
       }
     }
   }
