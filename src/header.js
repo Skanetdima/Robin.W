@@ -6,14 +6,21 @@ export const Header = ({ className }) => {
       <a href="#">{person.name}</a>
     </li>
   ));
-
   return (
     <header className={className}>
       <div className="logo">
         <img src={headerLogo} />
       </div>
       <ul>{listItems}</ul>
-      <div className="hamburger">
+      <div
+        onClick={() => {
+          const body = document.querySelector("body");
+          const navMenu = document.querySelector("body .header ul");
+          navMenu.classList.toggle("active");
+          body.classList.toggle("scrollActive");
+        }}
+        className="hamburger"
+      >
         <span className="bar"></span>
         <span className="bar"></span>
       </div>

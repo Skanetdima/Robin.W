@@ -637,6 +637,9 @@ body {
 
 // Optimization for mobile phones
 @media (max-width: 767px) {
+  body.scrollActive {
+    overflow: hidden;
+  }
   body {
     .header {
       height: 72px;
@@ -653,11 +656,19 @@ body {
         left: -100%;
         top: 72px;
         gap: 0;
+        display: flex;
         flex-direction: column;
         background-color: $Base;
         width: 100%;
         text-align: center;
-        transition: 0.3;
+        transition: 0.3s;
+        z-index: 100;
+        li.active {
+          left: 0;
+        }
+      }
+      ul.active {
+        left: 0;
       }
     }
     main {
