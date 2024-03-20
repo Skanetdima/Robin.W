@@ -687,4 +687,19 @@ body footer div ul {
   body main .sixthContainer .sixthContainerItem ul li img {
     max-width: 100%;
   }
+  body main .ninthContainer div {
+    max-width: 100%;
+  }
+  body main .ninthContainer ul {
+    max-width: 100%;
+  }
+  body main .ninthContainer ul li {
+    max-width: 100%;
+  }
+  body main .ninthContainer ul li img {
+    max-width: 100%;
+  }
+  body main .tenthContainer div h2 {
+    font-size: 14vw;
+  }
 }/*# sourceMappingURL=style.css.map */
