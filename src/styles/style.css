@@ -624,7 +624,7 @@ body footer div ul {
     height: 175vw;
   }
   body main .firstContainer h1 {
-    font-size: 2rem;
+    font-size: 10vw;
   }
   body main .firstContainer p {
     max-width: 94vw;
@@ -677,5 +677,14 @@ body footer div ul {
     grid-template-rows: repeat(3, 32vw);
     grid-template-columns: repeat(2, 50vw);
     animation: none;
+  }
+  body main .sixthContainer .sixthContainerItem {
+    max-width: 100%;
+  }
+  body main .sixthContainer .sixthContainerItem ul {
+    max-width: 100%;
+  }
+  body main .sixthContainer .sixthContainerItem ul li img {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
